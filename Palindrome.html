@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Palindrome using loop</h1>
+</body>
+<script>
+    function Palindrome(num){
+        var sum=0;
+        var temp=num;
+      while(num>0){
+        var res = num%10;
+        sum = (sum*10)+res;
+        num = Math.floor(num/10);
+     }
+       if(temp === sum){
+         console.log("is palindrome");
+       }
+       else{
+        console.log("not a palindrome");
+       }
+    }
+    Palindrome(155);
+    Palindrome(153);
+    Palindrome(121);
+  
+</script>
+</html>
