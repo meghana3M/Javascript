@@ -1,4 +1,4 @@
-Thses are basic programs of javascript practice questions. 
+These are basic programs of javascript practice questions. 
         Print Hello World using JavaScript     
         Add two numbers using JavaScript     
         Square root of a number using JavaScript    
