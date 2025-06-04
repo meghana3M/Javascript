@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+     function isAmstrong(num){
+        let sum = 0;
+        let temp = num
+        let numDigits = num.toString().length;
+        while(temp>0){
+             var res = temp%10;
+             sum+=Math.pow(res,numDigits);
+             temp = Math.floor(temp/10);
+        }
+        return sum===num;
+     }
+     const num = 153;
+     if(isAmstrong(num)){
+        console.log(num+" is an amstrong number");
+     }
+     else
+     {
+        console.log("not an amstrong number");
+     }
+</script>
+</html>
