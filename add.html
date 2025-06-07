@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add # to the string</h1>
+</body>
+<script>
+    function add(){
+        var str = prompt("Enter the string");
+     if(str.trim().length===0 || str.length>208){
+        console.log("false");
+     }
+     else{
+        var res = str.split(" "); 
+        var data = res.map((currEle)=>currEle.replace(currEle[0],currEle[0].toUpperCase()));
+        console.log(`#${data.join("")}`);
+
+     }
+    }
+    add();
+    
+</script>
+</html>
