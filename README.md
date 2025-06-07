@@ -31,3 +31,5 @@ These are basic programs of javascript practice questions.
         replace characters of string      
         reverse a string using for loop      
         sort words in alphabetical order
+        Longest word in the string
+        Add # to the string and make the first letter to Uppercase
