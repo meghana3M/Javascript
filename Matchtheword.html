@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Match the word in the string</h1>
+</body>
+<script>
+    var word = prompt("Enter the value");
+    var letter = prompt("Enter the letter");
+     function Match(word,letter){
+       var wordChange = word.toLowerCase();
+       var letterChange = letter.toLowerCase();
+       var data = wordChange.split("").reduce((acc,curr)=>{
+            if(curr === letterChange){
+                acc++;
+                
+            }
+            return acc;
+       },0);
+
+       return data;
+     }
+    
+     console.log( Match(word,letter));
+</script>
+</html>
