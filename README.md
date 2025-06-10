@@ -33,3 +33,4 @@ These are basic programs of javascript practice questions.
         sort words in alphabetical order
         Longest word in the string
         Add # to the string and make the first letter to Uppercase
+        tell which triangle is ?
